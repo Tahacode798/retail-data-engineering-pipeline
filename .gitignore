@@ -1,2 +1,19 @@
-# Ignore raw dataset files
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep example environment files
+!.env.example
+
+# Raw datasets
 /data/raw/*.csv
